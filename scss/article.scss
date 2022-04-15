@@ -1,0 +1,27 @@
+.pack-leader {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+
+
+    .pack {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        i {
+            color: $button-bg-color;
+            padding: 10px;
+        }
+
+        h2 {
+            padding: 10px;
+            font-weight: 600;
+        }
+    }
+
+}

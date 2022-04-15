@@ -1,0 +1,33 @@
+header {
+    position: fixed;
+    background: $whiteish-bg-color;
+    width: 100%;
+}
+
+
+
+.head {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    h3 {
+        font-weight: 300;
+    }
+
+    button {
+        background: $button-bg-color;
+        border-radius: 4px;
+        color: white;
+        padding: 5px;
+        border: 1px solid $button-bg-color;
+
+        &:hover {
+            background: $whiteish-bg-color;
+            color: $button-bg-color;
+            cursor: pointer;
+        }
+    }
+}

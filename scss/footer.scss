@@ -1,0 +1,34 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 25px;
+    height: 100px;
+    align-items: center;
+
+    ul {
+        list-style: none;
+        display: flex;
+        padding-bottom: 10px;
+
+        a {
+            text-decoration: none;
+            margin-right: 5px;
+            margin-left: 5px;
+            color: $button-bg-color;
+
+        }
+    }
+
+    p {
+        color: gray;
+        font-size: 0.8em;
+    }
+
+    .social {
+        color: $button-bg-color;
+
+        i {
+            margin-left: 25px;
+        }
+    }
+}
